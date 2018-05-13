@@ -1,0 +1,176 @@
+#modal-backdrop {
+    position: relative;
+    z-index: 99999;
+    background-color: dimgray;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    top: 00px;
+    bottom: 1000px;
+}
+
+#pcmodal {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 10px;
+    /*transform: translate(50%, 100%);*/
+    z-index: 9999;
+    background: #fff;
+    border: 5px solid black;
+    padding: 30px;
+    width: 500px;
+
+}
+
+#closemodal {
+    font-size: medium;
+    display: block;
+    float: right;
+    border: 1px solid gray;
+    color: gray;
+    padding: 1px 4px;
+}
+
+/* PILOT CERTIFICATE MODAL */
+
+#documents-modal {
+    height: 400px;
+    background-color: white;
+}
+
+#modal-title {
+    color: grey;
+}
+
+#pilot-certificate-new-btn {
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-top: 0px;
+    border: none;
+    color: white;
+    background-color: #2b63bc;
+    font-size: .8em;
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    /* ...and now override with proper CSS property */
+    transition:color .2s ease-out, background 1s ease-in;
+}
+
+#pilot-certificate-new-btn:hover {
+    color: #02FAD9;
+    background-color: #72ABDD;
+}
+
+
+#pilot-certificate-save-btn {
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    background-color: #2b63bc;
+    font-size: .8em;
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    /* ...and now override with proper CSS property */
+    transition:color .2s ease-out, background 1s ease-in;
+}
+
+#pilot-certificate-save-btn:hover {
+    color: #02FAD9;
+    background-color: #72ABDD;
+}
+
+/* CERTIFICATES */
+
+#certificate-form {
+    margin-top: 20px;
+}
+
+#certificates-header {
+    border-bottom: solid #72ABDD thin;
+}
+
+#certificate-span {
+    color: #72ABDD;
+    margin-right: 10px;
+}
+
+#certificate-class {
+    font-size: .8em;
+    margin-right: 10px;
+}
+
+#certificate-checkbox {
+    margin-right: 10px;
+    /*background-color: #72ABDD;*/
+}
+
+#certificate-checkbox-container {
+    margin-top: -5px;
+}
+
+#category-select {
+    border-radius: 0;
+}
+
+/* DOCUMENTS FORM MODAL */
+
+#documents-form-checkboxes {
+    margin-top: 20px;
+}
+
+#date-entry {
+    color: grey;
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+#pilot-document-save-btn {
+    margin-left: 0px;
+    margin-right: 20px;
+    /*margin-top: 20px;*/
+    border: none;
+    color: white;
+    background-color: #2b63bc;
+    font-size: .8em;
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    /* ...and now override with proper CSS property */
+    transition:color .2s ease-out, background 1s ease-in;
+}
+
+#pilot-document-save-btn:hover {
+    color: #02FAD9;
+    background-color: #72ABDD;
+}
+
+
+/* CHECKOUTS MODAL */
+
+#checkouts-object-container {
+    margin-top: 20px;
+}
+
+#checkout-reg-span {
+    color: #72ABDD;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+#checkout-date-label {
+    font-size: .9em;
+    /*margin-right: 10px;*/
+}
+
+#checkout-date-input {
+    margin-left: 10px;
+}
+
+#checkout-checkbox {
+    margin-right: 10px;
+}

@@ -1,0 +1,869 @@
+/* HOME DESK */
+
+#home-desk-login-body {
+    background: url(../../../public/img/b&WRockConcert.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#HomeDesk {
+    display: table;
+    width: 900px;
+    height: 1000px;
+}
+
+#home-login-form {
+    margin-top: 8%;
+    height: auto;
+    color: orange;
+    /*vertical-align: middle;*/
+}
+
+#home-title {
+    /*margin-top: -20%;*/
+    text-align: center;
+    font-size: 8em;
+    opacity: .8;
+}
+
+/* LOGIN FORM */
+
+#home-login-menu {
+    /*margin-top: -200px;*/
+    background-color: #122b40;
+    display: table-cell;
+    /*vertical-align: middle;*/
+    color: white;
+    border: none;
+    width: 500px;
+    height: 360px;
+    opacity: .8;
+}
+
+#home-login-form-container {
+    display: flex;
+    justify-content: center;
+    /*margin-top: -200px;*/
+    /*display: table-cell;*/
+    /*margin-left: 800px;*/
+}
+
+#home-login-alert {
+    height: 10px;
+    background-color: transparent;
+    margin-left: -15px;
+    border: none;
+    margin-top: -15px;
+}
+
+#home-login-container {
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+#home-login-label {
+    /*margin-left: 10px;*/
+    color: white;
+    font-size: 1.2em;
+    font-weight: normal!important;
+}
+
+#home-login-input {
+    border-radius: 0;
+    /*margin-left: 10px;*/
+    width: 420px;
+    height: 30px;
+    background-color: #F7F7F7;
+    border: none;
+    align-content: center;
+}
+
+#home-username-input {
+     height: 35px;
+     width: 415px;
+     text-decoration: none;
+     border: none;
+     color: black;
+     font-size: 1.3em;
+     padding-left: 10px;
+ }
+
+#home-password-input {
+    height: 35px;
+    width: 415px;
+    text-decoration: none;
+    border: none;
+    color: black;
+    font-size: 1.3em;
+    padding-left: 10px;
+}
+
+#home-login-btn {
+    margin-left: 30px;
+    margin-top: 5px;
+    width: 150px;
+    border: none;
+    color: white;
+    background-color: #2b63bc;
+    font-size: 1.4em;
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    /* ...and now override with proper CSS property */
+    transition:color .2s ease-out, background 1s ease-in;
+}
+
+#home-login-btn:hover {
+    color: #02FAD9;
+    background-color: #72ABDD;
+}
+
+#home-register-btn {
+    float: right;
+    margin-top: 5px;
+    width: 150px;
+    border: none;
+    color: white;
+    background-color: #2b63bc;
+    margin-left: 50px;
+    margin-right: 70px;
+    font-size: 1.4em;
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    /* ...and now override with proper CSS property */
+    transition:color .2s ease-out, background 1s ease-in;
+}
+
+#home-register-btn:hover {
+    color: #02FAD9;
+    background-color: #72ABDD;
+}
+
+#home-margin-top{
+    margin-top: 2rem;
+}
+
+/* LOGOUT USER */
+
+/*#home-logout-container {*/
+    /*background: url(../../../public/img/going.png) no-repeat;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+    /*width: 500px;*/
+    /*height: 360px;*/
+    /*margin-left: -40px;*/
+/*}*/
+
+#home-logout-text {
+    float: right;
+    margin-top: 30px;
+    margin-right: 80px;
+    color: #72ABDD;
+    font-weight: bold;
+    /*background-color: black;*/
+}
+
+#home-logout-btn {
+    margin-left: 140px;
+    margin-top: 30px;
+    width: 150px;
+    border: none;
+    color: white;
+    background-color: #2b63bc;
+    font-size: 1.4em;
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    /* ...and now override with proper CSS property */
+    transition:color .2s ease-out, background 1s ease-in;
+}
+
+#home-logout-logo {
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+#home-logout-btn:hover {
+    color: #02FAD9;
+    background-color: #72ABDD;
+}
+
+/* CONTACT FORM */
+
+/* Contact Form Responsive Sizing */
+
+@media all and (max-width: 299px) and (min-width: 220px) {
+
+    #ContactForm {
+        display: table;
+        max-width: 320px;
+        height: auto;
+        margin-left: 5%;
+        margin-top: 100px;
+        background-color: #F7F7F7;
+        padding: 40px;
+    }
+
+    #contact-form-contact-header {
+        font-size: 1.3em;
+        color: grey;
+        margin-left: -20px;
+        width: 300px;
+        border-bottom: solid #72ABDD thin;
+        /*margin-right: 20px;*/
+        padding: 5px;
+    }
+
+    #contact-form {
+        margin-top: 20px;
+    }
+
+    #contact-form-code {
+        width: 100px;
+    }
+}
+
+@media all and (max-width: 699px) and (min-width: 300px) {
+
+    #ContactForm {
+        display: table;
+        max-width: 500px;
+        height: auto;
+        margin-left: 5%;
+        margin-top: 100px;
+        background-color: #F7F7F7;
+        padding: 40px;
+    }
+
+    #contact-form-contact-header {
+        font-size: 1.3em;
+        color: grey;
+        margin-left: -20px;
+        width: 400px;
+        border-bottom: solid #72ABDD thin;
+        /*margin-right: 20px;*/
+        padding: 5px;
+    }
+
+    #contact-form {
+        margin-top: 20px;
+    }
+
+    /* Enter Code Form */
+
+    #contact-form-code {
+        width: 300px;
+    }
+
+    #contact-form-invite-code {
+        width: 300px;
+    }
+
+    /* User Info */
+
+    #contact-form-uname {
+        width: 300px;
+    }
+
+    #contact-form-pwd {
+        margin-top: -20px;
+        width: 300px;
+    }
+
+    #contact-form-pwd-conf {
+        margin-top: -20px;
+        width: 300px;
+    }
+
+    /* Certification Info */
+
+    #contact-form-faa {
+        width: 300px;
+        margin-left: -15px;
+    }
+
+    #contact-form-test {
+        width: 300px;
+        margin-left: -15px;
+        margin-top: -20px;
+    }
+
+    #contact-form-cert-desc {
+        width: 300px;
+        /*margin-left: -15px;*/
+        margin-top: -20px;
+    }
+
+    #form-label-certificate_desc {
+        border-radius: 0;
+        -webkit-appearance: none;
+    }
+
+    #contact-form-med {
+        width: 300px;
+        margin-top: 15px;
+        margin-left: -15px;
+    }
+
+    #contact-form-dte {
+        width: 300px;
+        margin-top: 15px;
+        margin-left: -15px;
+    }
+
+    /* Address Info */
+
+    #contact-form-addy {
+        width: 300px;
+        /*margin-left: -15px;*/
+    }
+
+    #contact-form-cty {
+        width: 300px;
+        margin-left: -15px;
+        margin-top: -20px;
+    }
+
+    #contact-form-sta {
+        width: 300px;
+        margin-left: -15px;
+        margin-top: -20px;
+    }
+
+    #contact-form-zp {
+        width: 300px;
+        margin-left: -15px;
+        margin-top: -20px;
+    }
+
+    #contact-form-cntry {
+        width: 300px;
+        margin-left: -15px;
+        margin-top: -20px;
+    }
+
+    #contact-form-hm {
+        width: 300px;
+        margin-left: -15px;
+        margin-top: -20px;
+    }
+
+    #contact-form-fx {
+        width: 300px;
+        margin-left: -15px;
+        margin-top: -20px;
+    }
+
+    #contact-form-db {
+        width: 300px;
+        margin-left: -15px;
+        margin-top: -20px;
+    }
+
+}
+
+@media all and (max-width: 1000px) and (min-width: 700px) {
+
+    #ContactForm {
+        display: table;
+        max-width: 1000px;
+        min-width: 700px;
+        height: auto;
+        margin-left: 5%;
+        margin-top: 100px;
+        background-color: #F7F7F7;
+        padding: 40px;
+    }
+
+    #contact-form-contact-header {
+        font-size: 1.3em;
+        color: grey;
+        margin-left: -20px;
+        width: 100%;
+        border-bottom: solid #72ABDD thin;
+        /*margin-right: 20px;*/
+        padding: 5px;
+    }
+
+    #contact-form {
+        margin-top: 20px;
+    }
+
+    /* User Info */
+
+    #contact-form-uname {
+        width: 500px;
+    }
+
+    #contact-form-pwd {
+        margin-top: -20px;
+        width: 500px;
+    }
+
+    #contact-form-pwd-conf {
+        margin-top: -20px;
+        width: 500px;
+    }
+
+    /* Certification Info */
+
+    #contact-form-faa {
+        width: 500px;
+        margin-left: -15px;
+    }
+
+    #contact-form-test {
+        width: 500px;
+        margin-left: -15px;
+        margin-top: -20px;
+    }
+
+    #contact-form-cert-desc {
+        width: 500px;
+        /*margin-left: -15px;*/
+        margin-top: -20px;
+    }
+
+    #form-label-certificate_desc {
+        border-radius: 0;
+        -webkit-appearance: none;
+    }
+
+    #contact-form-med {
+        width: 500px;
+        margin-top: 15px;
+        margin-left: -15px;
+    }
+
+    #contact-form-dte {
+        width: 500px;
+        margin-top: 15px;
+        margin-left: -15px;
+    }
+
+    /* Address Info */
+
+    #contact-form-addy {
+        width: 500px;
+        /*margin-left: -15px;*/
+    }
+
+    #contact-form-cty {
+        width: 500px;
+        margin-left: -15px;
+        margin-top: -20px;
+    }
+
+    #contact-form-sta {
+        width: 500px;
+        margin-left: -15px;
+        margin-top: -20px;
+    }
+
+    #contact-form-zp {
+        width: 500px;
+        margin-left: -15px;
+        margin-top: -20px;
+    }
+
+    #contact-form-cntry {
+        width: 500px;
+        margin-left: -15px;
+        margin-top: -20px;
+    }
+
+    #contact-form-hm {
+        width: 500px;
+        margin-left: -15px;
+        margin-top: -20px;
+    }
+
+    #contact-form-fx {
+        width: 500px;
+        margin-left: -15px;
+        margin-top: -20px;
+    }
+
+    #contact-form-db {
+        width: 500px;
+        margin-left: -15px;
+        margin-top: -20px;
+    }
+}
+
+@media all and (min-width: 1001px) {
+
+    /*#contact-form-container {*/
+        /*background: url(../../../public/img/dash.jpg) no-repeat;*/
+        /*-webkit-background-size: cover;*/
+        /*-moz-background-size: cover;*/
+        /*-o-background-size: cover;*/
+        /*background-size: cover;*/
+        /*!*max-height: 1400px;*!*/
+        /*height: 100%;*/
+        /*!*margin-top: 100px;*!*/
+    /*}*/
+
+    #ContactForm {
+        display: table;
+        max-width: 1280px;
+        min-width: 1200px;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 100px;
+        background-color: #F7F7F7;
+        padding: 40px;
+    }
+
+    #contact-form-contact-header {
+        font-size: 1.3em;
+        color: grey;
+        margin-left: -20px;
+        width: 100%;
+        border-bottom: solid #72ABDD thin;
+        /*margin-right: -40px;*/
+        padding: 5px;
+    }
+
+    #contact-form {
+        margin-top: 20px;
+    }
+
+    /* User Information */
+
+    #contact-form-uname {
+    }
+
+    #contact-form-pwd {
+        margin-top: -20px;
+    }
+
+    #contact-form-pwd-conf {
+        margin-top: -20px;
+    }
+
+    #contact-form-username {
+        overflow: hidden;
+        width: 500px;
+    }
+
+    #contact-form-password {
+        overflow: hidden;
+        width: 500px;
+    }
+
+    #contact-form-password-confirmation {
+        overflow: hidden;
+        width: 500px;
+    }
+
+    #contact-form-email {
+        overflow: hidden;
+        width: 450px;
+    }
+
+    /* Address and Contact Info */
+
+    #contact-form-addy {
+    }
+
+    #contact-form-address {
+        overflow: hidden;
+        width: 500px;
+    }
+
+    #contact-form-cty {
+        margin-top: -20px;
+        margin-left: -15px;
+    }
+
+    #contact-form-city {
+        overflow: hidden;
+        width: 230px;
+    }
+
+    #contact-form-state {
+        overflow: hidden;
+        width: 230px;
+    }
+
+    #contact-form-sta {
+        margin-top: -20px;
+        margin-right: 20px;
+        margin-left: -30px;
+    }
+
+    #contact-form-zip {
+        overflow: hidden;
+        width: 230px;
+    }
+
+    #contact-form-zp {
+        margin-top: -20px;
+        margin-left: -15px;
+    }
+
+    #contact-form-country {
+        overflow: hidden;
+        width: 230px;
+    }
+
+    #contact-form-cntry {
+        margin-top: -20px;
+        margin-right: 20px;
+        margin-left: -30px;
+    }
+
+    #contact-form-home {
+        overflow: hidden;
+        width: 230px;
+    }
+
+    #contact-form-hm {
+        margin-top: -20px;
+        margin-left: -15px;
+    }
+
+    #contact-form-fax {
+        overflow: hidden;
+        width: 230px;
+    }
+
+    #contact-form-fx {
+        margin-top: -20px;
+        margin-right: 20px;
+        margin-left: -30px;
+    }
+
+    /*#contact-form-airnc {*/
+        /*overflow: hidden;*/
+        /*width: 300px;*/
+        /*!*margin-top: -25px;*!*/
+    /*}*/
+
+    #contact-form-dob {
+        overflow: hidden;
+        width: 500px;
+    }
+
+    #contact-form-db {
+        margin-top: -20px;
+        margin-left: -15px;
+    }
+
+    /* Certification Information */
+
+    #contact-form-faa_certificate_number {
+        overflow: hidden;
+        width: 230px;
+    }
+
+    #contact-form-faa {
+        /*margin-top: -20px;*/
+        margin-left: -15px;
+    }
+
+    #contact-form-faa_written_test_exp {
+        overflow: hidden;
+        width: 230px;
+    }
+
+    #contact-form-test {
+        /*margin-top: -20px;*/
+        margin-right: 20px;
+        margin-left: -30px;
+    }
+
+    #contact-form-cert-desc {
+        /*margin-top: -20px;*/
+        /*margin-left: -15px;*/
+        /*height: 50px;*/
+    }
+
+    #form-label-certificate_desc {
+    }
+
+    #contact-form-certificate_desc {
+        width: 500px;
+        overflow: hidden;
+        border-radius: 0;
+    }
+
+    #contact-form-med {
+        margin-top: 15px;
+        margin-left: -15px;
+    }
+
+    #contact-form-medical-class {
+        width: 230px;
+        overflow: hidden;
+        border-radius: 0;
+    }
+
+    #contact-form-dte {
+        margin-top: 15px;
+        margin-right: 20px;
+        margin-left: -30px;
+    }
+
+    #contact-form-medical_date {
+        width: 230px;
+        overflow: hidden;
+        border-radius: 0;
+    }
+
+
+    /* Submit Button */
+
+    #contact-form-btn-grp {
+        text-align: center;
+        align-content: center;
+    }
+
+    /*#contact-form-emergency-first {*/
+        /*position: relative;*/
+        /*display: block;*/
+        /*overflow: hidden;*/
+        /*width: 380px;*/
+    /*}*/
+
+    /*#contact-form-emergency-last {*/
+        /*position: relative;*/
+        /*display: block;*/
+        /*overflow: hidden;*/
+        /*width: 380px;*/
+        /*float: right;*/
+        /*margin-top: -94px;*/
+        /*margin-right: 50px;*/
+        /*left: -295px;*/
+    /*}*/
+
+    /*#contact-form-emergency-phone {*/
+        /*position: relative;*/
+        /*display: block;*/
+        /*overflow: hidden;*/
+        /*width: 295px;*/
+        /*float: right;*/
+        /*margin-top: -94px;*/
+        /*margin-right: 50px;*/
+        /*left: 25px;*/
+    /*}*/
+
+}
+
+/* Contact Form Constants */
+
+#contact-form-btn {
+    margin-left: 15px;
+    float: left;
+    margin-top: 40px;
+    border: none;
+    color: white;
+    background-color: #2b63bc;
+    font-size: 0.9em;
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    /* ...and now override with proper CSS property */
+    transition:color .2s ease-out, background 1s ease-in;
+}
+
+#contact-form-btn:hover {
+    color: #02FAD9;
+    background-color: #72ABDD;
+}
+
+form input[type=text] {
+    border-radius: 0;
+}
+
+form input[type=tel] {
+    border-radius: 0;
+}
+
+form input[type=date] {
+    border-radius: 0;
+}
+
+form input[type=password] {
+    border-radius: 0;
+}
+
+select {
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+#contact-form-code {
+    width: 300px;
+    margin-left: 15px;
+}
+
+/*#contact-form-container {*/
+    /*background: url(../../../public/img/dash.jpg) no-repeat;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+    /*max-height: 1400px;*/
+    /*!*margin-top: 70px;*!*/
+/*}*/
+
+#ContactForm {
+}
+
+#email-contact-form-wrapper {
+}
+
+#email-contact-form-header {
+    margin-left: 10%;
+    margin-top: 40px;
+    margin-bottom: -70px;
+    color: grey;
+    font-weight: bold;
+}
+
+/* FORGOT PASSWORD */
+
+#password-help {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+#forgot-password {
+    margin-top: 15%;
+    width: 370px;
+    height: 300px;
+    background-color: #F7F7F7;
+    margin-left: 20%;
+    padding: 20px;
+}
+
+#forgot-password-form {
+}
+
+#forgot-password-contact-header {
+    font-size: 1.5em;
+    color: grey;
+    padding: 5px;
+    font-weight: bold;
+    border-bottom: solid #72ABDD thin;
+    width: 100%;
+
+}
+
+#home-form-success {
+    margin-top: 70px;
+}
+
+#member-select {
+    text-align: center;
+}

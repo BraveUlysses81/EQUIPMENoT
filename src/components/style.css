@@ -1,0 +1,340 @@
+html, body {
+    height: 100%;
+}
+
+main{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* NAVIGATION BAR */
+
+#navCont {
+    /*margin-left: -20px;*/
+}
+
+.navbar-fixed-left {
+    width: 120px;
+    border-radius: 0;
+    background-color: #1F3A4C;
+    text-decoration: none;
+    height: 100%;
+    position: fixed;
+    -webkit-transform: translateZ(0);
+    margin-left: -20px;
+    z-index: 1;
+}
+
+#nav-icon:hover {
+    background-color: transparent!important;
+}
+
+#nav-icon:active {
+    background-color: transparent!important;
+}
+
+#nav-icon:focus {
+    background-color: transparent!important;
+}
+
+.navbar-fixed-left .nav-pills {
+    height: 100%;
+    display: inline-block;
+}
+
+.navbar-fixed-left > .nav-pills:hover {
+    background-color: #1F3A4C;
+}
+
+.navbar-fixed-left + .container {
+    white-space: nowrap;
+}
+
+/* NAVIGATION LOGO */
+
+#logo {
+    font-size: 0.8em;
+    font-weight: bold;
+    height: 80px;
+    color: white;
+    text-align: center;
+    background-color: #72ABDD;
+    width: 119px;
+    margin-left: -1px;
+    margin-top: -11px;
+    white-space: nowrap;
+    z-index: 999999;
+}
+
+#main-logo {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    max-width: 90%;
+    max-height: 90%;
+    text-align: center;
+    margin-left: 22px;
+    margin-top: 5px;
+    z-index: 999999;
+}
+
+/* NAVIGATION BUTTONS */
+
+#nav-icon {
+    /*margin-top: 30px;*/
+    /*margin-bottom: -40px;*/
+    /*vertical-align: middle;*/
+}
+.nav-pills {
+    /*height: 80px;*/
+    /*line-height: 40px;*/
+}
+.navbar-fixed-left .nav-pills > li {
+    margin-top: 20px;
+    float: none;  /* Cancel default li float: left */
+    font-weight: bold;
+    font-size: 0.8em;
+    white-space: nowrap;
+    width: 118px;
+    /*vertical-align: middle;*/
+}
+
+.navbar-fixed-left .nav-pills > li a {
+    color: lightgray;
+    text-align: center;
+}
+
+#left-nav-hr {
+    height: 2px;
+}
+
+/* Navigation Button Hover and Focus */
+
+.navbar-fixed-left .nav-pills > li a:hover {
+    text-align: center;
+    border-radius: 0;
+    color: #02FAD9;
+    width: 118px;
+    background-color: #333333;
+}
+
+.navbar-fixed-left .nav-pills > li a:focus {
+    color: #02FAD9;
+    background-color: #333333;
+}
+
+.navbar-fixed-left .nav-pills > li a:active {
+    color: #02FAD9;
+    background-color: #333333;
+}
+
+#logo:hover {
+    background-color: #000102;
+    color: white;
+}
+
+.navbar-form {
+    webkit-box-shadow: inset 0 0 0 rgba(255,255,255,.1),0 0 0 rgba(255,255,255,.1);
+    box-shadow: inset 0 0 0 rgba(255,255,255,.1),0 0 0 rgba(255,255,255,.1);
+    text-decoration: none;
+    border: none;
+}
+
+/* Not Found page */
+
+#not-Found {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+/* Dropdown Menus */
+
+.dropdown-menu {
+    color: white;
+    position: absolute;
+    background-color: #122b40;
+    border-radius: 0;
+    border: none;
+    opacity: 1;
+}
+
+.dropdown-menu > li a {
+    /*color: white!important;*/
+    font-size: 0.8em;
+    height: 40px;
+    text-align: left;
+    /*margin-left: 10px;*/
+    padding-top: 13px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.dropdown-menu > li a:hover {
+}
+
+/* User Photo */
+
+#list-photo {
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    background-color: white;
+    margin-top: -4px;
+}
+
+#user-image-thumbnail {
+    /*position: relative;*/
+    /*width: 100%;*/
+    /*height: auto;*/
+    overflow: hidden;
+    /*margin-right: 10px;*/
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#default-user-image-thumbnail {
+    color: lightgrey;
+}
+
+#default-user-image-thumbnail {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#default-aircraft-image-thumbnail {
+    width: 530px;
+    margin: 60px 0;
+    color: lightgrey;
+}
+
+#aircraft-image {
+    background-color: white;
+    width: 530px;
+}
+
+/* BUTTON STYLING */
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+/* Shadow */
+
+button:focus {
+    outline: 0;
+}
+
+button:active {
+    outline: 0;
+}
+
+#flight-object:focus {
+    outline: none !important;
+    border: none;
+    -moz-box-shadow: 5px 10px 0px 0px #999;
+    -webkit-box-shadow: 5px 10px 40px 4px #999;
+}
+
+.shadow {
+    -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-button {
+    width: 4px;
+    height: 4px;
+}
+::-webkit-scrollbar-thumb {
+    background: #72ABDD;
+    border: 0px none #878787;
+    border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #72ABDD;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #72ABDD;
+}
+::-webkit-scrollbar-track {
+    background: #d9d9d9;
+    border: 0px none #878787;
+    border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+    background: #d9d9d9;
+}
+::-webkit-scrollbar-track:active {
+    background: #d9d9d9;
+}
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+/* MODALS */
+
+#modal-backdrop{
+    position: absolute;
+    z-index: 9998;
+    background-color: dimgray;
+    opacity: 0.5;
+    width: 100%;
+    height: 300%;
+    display: block;
+}
+
+.custom-modal {
+    width: 1300px;
+    height: 800px;
+}
+
+.static-modal {
+}
+
+#modal-body {
+    height: 400px;
+}
+
+/* PILOT CERTIFICATES MODAL */
+
+#cert-collapsible {
+    margin-top: -20px;
+}
+
+#cert-form-lightgrey {
+    /*margin-top: -10px;*/
+    border-top: solid lightgrey thin;
+    padding: 10px;
+}
+
+#cert-form {
+    padding: 10px;
+    padding-top: 20px;
+    margin-bottom: -20px;
+}
+
+/* ICONS */
+
+#mobile-phone-tiny {
+    position: absolute;
+    margin-right: 30px;
+    color: gray;
+    font-size: 1.3em;
+}
+
+#phone-tiny {
+    position: absolute;
+    margin-right: 30px;
+    color: gray;
+    font-size: 1em;
+}

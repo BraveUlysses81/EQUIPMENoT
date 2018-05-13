@@ -1,0 +1,218 @@
+/* AIRCRAFT DESK */
+
+#aircraft-list-reg {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1em;
+    color: #0f0f0f;
+    margin-top: 10px;
+}
+
+#aircraft-list-make {
+    text-align: left;
+    /*float: left;*/
+    color: gray;
+    font-size: 0.8em;
+    text-decoration: none;
+    /*width: 250px;*/
+}
+
+#aircraft-list-info {
+    margin-top: -10px;
+    margin-left: 80px;
+
+}
+
+/* AIRCRAFT DETAIL HEADER */
+
+#aircraft-detail-header-left {
+    width: 230px;
+    height: 250px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#aircraft-detail-header-text {
+    font-size: .8em;
+    color: grey;
+    width: 20px;
+}
+
+#aircraft-detail-header-info {
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#aircraft-detail-header-dispatch-group {
+    margin-top: 10px;
+    margin-left: 250px;
+
+}
+
+#aircraft-detial-header-aircraft_status {
+    margin-top: 30px;
+    /*margin-right: 20px;*/
+    margin-left: 200px;
+}
+
+#aircraft-detail-header-status-info {
+    position: absolute;
+    font-size: 1em;
+    font-weight: bold;
+    /*margin-left: 10px;*/
+    margin-left: 485px;
+    margin-top: 40px;
+}
+
+#current-aircraft-status {
+    color: grey;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+
+#current-aircraft-status-text {
+    margin-top: 20px;
+    margin-left: -8px;
+}
+
+@media screen and (max-width: 992px) {
+    #aircraft-detail-header-status-info {
+        position: absolute;
+        font-size: 1em;
+        font-weight: bold;
+        /*margin-left: 10px;*/
+        margin-left: 485px;
+        margin-top: -183px;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    #aircraft-detail-header-status-info {
+        position: absolute;
+        font-size: 1em;
+        font-weight: bold;
+        /*margin-left: 10px;*/
+        margin-left: 274px;
+        margin-top: 10px;
+    }
+}
+
+/* AIRCRAFT DETAIL CONTACT */
+
+#aircraft-detail-contact {
+    margin-top: 50px;
+}
+
+input[type=checkbox] {
+}
+
+#aircraft-detail-info-top-box {
+    margin-top: 0px;
+}
+
+#aircraft-detail-info-box {
+    margin-top: -20px;
+}
+
+#aircraft-detail-info-top-checkbox {
+    margin-top: 5px;
+}
+
+#aircraft-detail-info-checkbox {
+    /*margin-top: -5px;*/
+}
+
+#aircraft-detail-info-label {
+    /*color: grey;*/
+    font-size: .9em;
+    font-weight: bold;
+    margin-top: 5px;
+    /*position: absolute;*/
+}
+
+#aircraft-detail-info-checkbox-label {
+    /*color: grey;*/
+    font-size: .9em;
+    font-weight: bold;
+    margin-top: 0px;
+    position: absolute;
+}
+
+#aircraft-detail-info-inputs {
+    border-radius: 0;
+}
+
+#aircraft-detail-info-checkbox-inputs {
+    color: black !important;
+    position: relative;
+    margin-right: 20px;
+    margin-top: 0px;
+    width: 20px;
+    height: 20px;
+    border-radius: 0;
+    border: solid black !important;
+    border-width: 2px;
+    box-sizing: border-box;
+    background: white;
+}
+
+#add-aircraft-container {
+    margin-left: 130px;
+    margin-top: 25px;
+    width: 1200px;
+    height: 800px;
+    background: #F7F7F7;
+}
+
+#add-aircraft-desk-nav {
+    margin-top: 70px;
+    text-align: center;
+    background-color: white;
+    border-radius: 0;
+    border-right: none;
+}
+
+#ground-aircraft-pinned {
+    margin-top: 20px;
+}
+
+#ground-aircraft-pinned-header {
+    font-weight: bold;
+}
+
+/* ADD AIRCRAFT */
+
+#add-aircraft-checkbox-inputs {
+    color: black !important;
+    position: absolute;
+    /*margin-right: 20px;*/
+    margin-top: 0px;
+    width: 20px;
+    height: 20px;
+    border-radius: 0;
+    border: solid black !important;
+    border-width: 2px;
+    box-sizing: border-box;
+    background: white;
+}
+
+#add-aircraft-checkbox-label {
+    /*color: grey;*/
+    font-size: .9em;
+    font-weight: bold;
+    margin-top: 1px;
+    position: absolute;
+}
+
+#add-aircraft-form {
+    margin-left: 40px;
+    width: 1100px;
+    /*height: 800px;*/
+}
+
+#add-aircraft-input-container {
+    margin-top: -20px;
+    /*position: absolute;*/
+}

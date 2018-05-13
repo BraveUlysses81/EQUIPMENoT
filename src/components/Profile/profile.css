@@ -1,0 +1,64 @@
+
+/* PROFILE */
+
+
+#profile-container {
+    background-color: #F7F7F7;
+    border: solid lightgrey thin;
+    margin-top: 100px;
+    height: 100%;
+    margin-left: 1vw;
+}
+
+#profile-header {
+    margin-top: 50px;
+    margin-left: -60px;
+}
+
+#profile-image {
+    height: 300px;
+    width: auto;
+    margin-left: 10px;
+}
+
+#update-profile-container {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.update-profile-links {
+    margin: 5px 5px;
+}
+
+#profile-input {
+    border-radius: 0;
+    max-width: 300px;
+}
+
+/* MEMBERSHIPS */
+
+#profile-memberships-container {
+    margin-right: 50px;
+}
+
+#profile-memberships-header {
+    background-color: #F7F7F7;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 1em;
+    font-weight: normal;
+    color: #72ABDD;
+    border-bottom: solid lightgrey thin;
+}
+
+#profile-memberships-list {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 20vh;
+}
+
+#profile-memberships-list-item {
+    border-radius: 0;
+    margin-top: .5vh;
+    max-width: 400px;
+}

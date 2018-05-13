@@ -1,0 +1,265 @@
+#flight-detail-aircraft_image{
+    margin: 0;
+}
+
+#aircraft-image{
+    margin: 0;
+    max-width: 400px;
+}
+
+#flight-detail-modal {
+    position: absolute;
+    margin-left: 1%;
+    margin-top: -1000px;
+    /*padding: 10px;*/
+    /*transform: translate(50%, 100%);*/
+    z-index: 9999;
+    background: #fff;
+    border: 5px solid black;
+    width: 1300px;
+    height: 800px;
+}
+
+/* FLIGHT MODAL DETAIL CUSTOMER */
+
+#flight-modal-detail-customer {
+    margin-top: -800px;
+    margin-left: 380px;
+    width: 750px;
+}
+
+#flight-modal-detail-customer-info-container {
+    position: absolute;
+    margin-top: -20px;
+    width: 400px;
+    margin-left: -20px;
+}
+
+/* Flight Detail Modal Instructor */
+
+#flight-detail-modal-instructor {
+    position: relative;
+    display: block;
+    margin-left: 0px;
+}
+
+#flight-detail-modal-instructor-container {
+    float: left;
+    /*margin-top: 50px;*/
+    width: 830px;
+    height: 120px;
+    background-color: #F7F7F7;
+    margin-left: 40px;
+}
+
+#flight-detail-modal-instructor-image-container {
+    margin-top: 20px;
+    /*position: absolute;*/
+    /*margin-left: 150px;*/
+}
+
+#flight-detail-modal-instructor-image-wrap {
+    /*position: absolute;*/
+    /*width: 750px;*/
+    margin-left: 40px;
+    margin-top: 0px;
+}
+
+#flight-modal-detail-instructor-list-name{
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: grey;
+}
+
+#flight-modal-instructor-certs-top {
+    margin-left: 60px;
+    margin-top: -5px;
+    color: gray;
+    font-size: .7em;
+}
+
+#flight-modal-instructor-certs {
+    position: relative;
+    margin-top: -20px;
+    margin-left: 180px;
+    color: gray;
+    font-size: .7em;
+}
+
+/* Flight Detail Modal Info */
+
+#flight-detail-modal-info-status-container {
+    float: left;
+    position: absolute;
+    /*margin-top: 50px;*/
+    width: 830px;
+    height: 170px;
+    background-color: #F7F7F7;
+    margin-left: -15px;
+}
+
+#flight-modal-detail-info {
+    margin-left: 40px;
+    width: 780px;
+}
+
+#flight-modal-detail-info-container {
+    width: 830px;
+}
+
+#flight-modal-detail-info-status {
+    /*font-size: 2em;*/
+    margin-left: 20px;
+    position: absolute;
+    color: black;
+    font-weight: bold;
+}
+
+#flight-modal-detail-info-label {
+    position: absolute;
+    font-size: 1em;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+/* Flight Detail Modal Status Buttons */
+
+
+#flight-modal-detail-status {
+    float: left;
+    margin-top: 170px;
+    width: 830px;
+    height: 180px;
+    background-color: #F7F7F7;
+    margin-left: 25px;
+}
+
+#flight-detail-modal-status-wrap {
+    margin-top: 10px;
+}
+
+#set-flight-status-container {
+    width: 100%;
+    /*background-color: #F7F7F7;*/
+    /*border-bottom: solid lightgrey thin;*/
+    padding: 5px;
+    margin-left: -5px;
+}
+
+#set-flight-status-text {
+    /*background-color: #F7F7F7;*/
+    color: #72ABDD;
+    font-size: 1em;
+    margin-left: 20px;
+    /*border-bottom: solid lightgrey thin;*/
+}
+
+#set-flight-status-button-toolbar {
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+#flight-modal-detail-btn {
+    font-size: .8em;
+    margin-right: 20px;
+    background: lightgrey;
+    border: none;
+}
+
+/* Dispatched Caret */
+#flight-modal-detail-pinned-caret {
+    position: absolute;
+    color: lightgrey;
+    margin-top: -22px;
+    margin-left: 40px;
+    font-size: 1.4em;
+}
+
+/* Released Caret */
+#flight-modal-detail-dispatch-caret {
+    position: absolute;
+    color: lightgrey;
+    margin-top: -22px;
+    margin-left: 35px;
+    font-size: 1.4em;
+}
+
+/* InFlight Caret */
+#flight-modal-detail-inflight-caret {
+    position: absolute;
+    color: lightgrey;
+    margin-top: -22px;
+    margin-left: 31px;
+    font-size: 1.4em;
+}
+
+#flight-modal-detail-active-btn {
+    font-size: .8em;
+    margin-right: 20px;
+    background: #72ABDD;
+    color: #02FAD9;
+    border: none;
+}
+
+#flight-modal-detail-btn:hover {
+    background: #2b63bc;
+    color: white;
+}
+
+#manual-times-form {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+#flight-modal-detail-status-end-tach {
+    border: none;
+    background-color: white;
+    border-bottom: solid lightgrey thin;
+    /*margin: 5px;*/
+    padding: 5px;
+}
+
+#flight-modal-detail-status-end-hobbs {
+    border: none;
+    background-color: white;
+    border-bottom: solid lightgrey thin;
+    /*margin: 5px;*/
+    padding: 5px;
+}
+
+/*#flight-modal-detail-dispatch-btn {*/
+    /*font-size: .8em;*/
+    /*margin-right: 20px;*/
+    /*background: lightgrey;*/
+    /*border: none;*/
+/*}*/
+
+/*#flight-modal-detail-dispatch-btn:hover {*/
+    /*background: #2b63bc;*/
+    /*color: white;*/
+/*}*/
+
+/*#flight-modal-detail-inflight-btn {*/
+    /*font-size: .8em;*/
+    /*margin-right: 20px;*/
+    /*background: lightgrey;*/
+    /*border: none;*/
+/*}*/
+
+/*#flight-modal-detail-complete-btn {*/
+    /*font-size: .8em;*/
+    /*margin-right: 20px;*/
+    /*background: lightgrey;*/
+    /*border: none;*/
+/*}*/
+
+/*#flight-modal-detail-close-btn {*/
+    /*font-size: .8em;*/
+    /*margin-right: 20px;*/
+    /*background: lightgrey;*/
+    /*border: none;*/
+/*}*/
+

@@ -1,0 +1,388 @@
+
+/* DISPATCH MODAL */
+
+#dispatch-modal {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: -100px;
+    /*transform: translate(50%, 100%);*/
+    z-index: 9999;
+    background: #fff;
+    border: 5px solid black;
+    padding: 10px;
+    width: 1300px;
+    height: 800px;
+}
+
+.flight-modal {
+    width: 1300px;
+    height: 800px;
+}
+
+#dispatch-modal-body {
+    height: 805px;
+}
+
+/* Dispatch Customer List */
+
+#dispatch-customer-list {
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-left: -10px;
+    margin-right: 10px;
+    margin-top: -10px;
+    /*padding-right: 30px;*/
+    /*padding-bottom: 40px;*/
+    padding-top: 10px;
+    height: 790px;
+    background-color: #F7F7F7;
+}
+
+#dispatch-customer-list-info {
+    margin-top: -17px;
+}
+
+#dispatch-customer-image {
+    margin-top: -10px;
+}
+
+/* DISPATCH DETAIL */
+
+/* Dispatch Customer */
+
+#dispatch-detail-container{
+    /*margin-top: -20px;*/
+    margin-right: -20px;
+}
+
+#dispatch-customer {
+    margin-right: 60px;
+    margin-left: -20px;
+    margin-top: -40px;
+    background-color: white;
+    width: 300px;
+}
+
+#dispatch-customer-header-left {
+    width: 230px;
+    height: 250px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#dispatch-customer-detail-header {
+    margin-top: -10px;
+    position: relative;
+}
+
+#dispatch-customer-image-container {
+    margin-top: -20px;
+}
+
+#dispatch-customer-info-container {
+    margin-top: -20px;
+    width: 400px;
+    /*margin-left: 10px;*/
+}
+
+#dispatch-customer-info-header {
+    /*margin-left: 10px;*/
+}
+
+#dispatch-customer-name {
+    position: absolute;
+    color: gray;
+    font-weight: bold;
+    margin-top: 40px;
+    width: 300px;
+    left: 270px;
+}
+
+#dispatch-customer-mobile {
+    position: absolute;
+    margin-top: 60px;
+    left: 272px;
+}
+
+#dispatch-customer-mobile-text {
+    /*color: grey;*/
+    font-size: 1.2em;
+    /*font-weight: bold;*/
+    margin-left: 30px;
+    margin-top: -24px;
+    width: 400px;
+}
+
+#homeIcon {
+    color: grey;
+    margin-right: 20px;
+    margin-left: -7px;
+}
+
+#dispatch-customer-address {
+    position: absolute;
+    margin-top: 80px;
+    left: 272px;
+    width: 500px;
+}
+
+#dispatch-customer-address-text {
+    /*color: grey;*/
+    font-size: 1.2em;
+    /*font-weight: bold;*/
+    margin-left: 30px;
+    margin-top: -24px;
+}
+
+#dispatch-customer-override-btn {
+    position: absolute;
+    margin-top: 150px;
+    left: 270px;
+    font-size: .8em;
+}
+
+#dispatch-customer-reset-btn {
+    position: absolute;
+    margin-top: 150px;
+    left: 500px;
+    font-size: .8em;
+}
+
+/* DISPATCH AIRCRAFT LIST */
+
+#dispatch-aircraft-list {
+    width: 800px;
+    margin-top: 200px;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 0px;
+}
+
+#dispatch-aircraft-list-container {
+    /*display: block;*/
+    max-width: 9999999px;
+    /*overflow: hidden;*/
+    white-space: nowrap;
+    width: 10000px;
+}
+
+#dispatch-aircraft-list-item {
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+    border: none;
+}
+
+#dispatch-aircraft-list-item > button {
+    /*border: none;*/
+    border-radius: 0;
+    margin-bottom: 5px;
+    border: solid thin lightgrey;
+    /*background-color: #F7F7F7;*/
+}
+
+#dispatch-aircraft-button {
+    border: none;
+    margin-bottom: 10px;
+}
+
+#dispatch-button-selected {
+    outline: none !important;
+    /*background-color: #72ABDD;*/
+    border: solid #72ABDD thin !important;
+    margin-bottom: -2px;
+    color: #02FAD9;
+    background-color: #F7F7F7;
+    -moz-box-shadow: 5px 10px 0px 0px #999;
+    -webkit-box-shadow: 5px 10px 40px 4px #999;
+}
+
+#dispatchAircraft {
+}
+
+
+#dispatch-aircraft-button:focus, #dispatch-aircraft-button:target {
+    /*outline: 0;*/
+    /*!*background-color: #72ABDD;*!*/
+    /*border: solid #72ABDD thin;*/
+    /*margin-bottom: -2px;*/
+}
+
+#dispatch-aircraft-button:active {
+
+}
+
+/*#dispatch-aircraft-list-item > button {*/
+    /*border: none;*/
+/*}*/
+
+#dispatch-aircraft-list-key {
+}
+
+.dispatch-aircraft-thumbs {
+    height: 80px;
+    width: 80px;
+    padding: 5px;
+    display: block;
+}
+
+#registration-number-caption {
+    background-color: transparent;
+    padding-top: 5px;
+    border-bottom: none;
+    margin-left: -10px;
+    margin-right: -9px;
+}
+
+/* DISPATCH INSTRUCTOR LIST */
+
+#dispatch-modal-detail-photo {
+    width: 250px;
+    height: 250px;
+}
+
+#dispatch-instructor-list {
+    display: inline-block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    /*padding: 0px;*/
+    width: 800px;
+    height: 100px;
+    /*padding-bottom: 10px;*/
+}
+
+#dispatch-instructor-list-container {
+    width: 99999px;
+    /*overflow: hidden;*/
+}
+
+#dispatch-instructor-list-item {
+    display: inline-block;
+    float: left;
+    width: 240px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 15px;
+    /*margin-bottom: 10px;*/
+}
+
+#dispatch-instructor-list-item > button {
+    width: 240px;
+    height: 80px;
+    border: solid thin lightgrey;
+    border-radius: 0;
+    outline: 0;
+    overflow: hidden;
+    /*background-color: #F7F7F7;*/
+}
+
+#dispatch-instructor-list-image-wrap {
+    margin-left: -15px;
+    margin-top: 0px;
+}
+
+#dispatch-instructor-list-name{
+    margin-top: -4px;
+    font-size: 1em;
+    font-weight: bold;
+    color: gray;
+    overflow: hidden;
+}
+
+#dispatch-instructor-certs-top {
+    margin-top: -3px;
+    color: gray;
+    font-size: .7em;
+}
+
+#dispatch-instructor-certs {
+    margin-top: -8px;
+    color: gray;
+    font-size: .7em;
+}
+
+/* Dispatch Flight Info */
+
+#dispatch-flight-info {
+    align-content: center;
+    margin-top: -10px;
+    padding: 10px;
+}
+
+#dispatch-flight-info-head {
+    font-weight: bold;
+    color: gray;
+}
+
+#dispatch-flight-info-container {
+    margin-top: -40px;
+}
+
+#dispatch-flight-info-subcontainer {
+    /*margin-top: -40px;*/
+}
+
+#dispatch-flight-info-text {
+    margin-top: -20px;
+}
+
+#dispatch-flight-info-label {
+    font-size: 1em;
+    margin-left: 20px;
+    margin-top: -3px;
+}
+
+#dispatch-flight-flight-buttons {
+    margin-top: 50px;
+    /*height: 30px;*/
+    width: 300px;
+}
+
+#pin-flight-btn {
+    margin: 5px;
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: #2b63bc;
+    font-size: 0.8em;
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    /* ...and now override with proper CSS property */
+    transition:color .2s ease-out, background 1s ease-in;
+}
+
+#pin-flight-btn:hover {
+    color: #02FAD9;
+    background-color: #72ABDD;
+}
+
+#dispatch-flight-btn {
+    margin: 5px;
+    width: 150px;
+    border: none;
+    color: white;
+    background-color: #1b887a;
+    font-size: 0.8em;
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    /* ...and now override with proper CSS property */
+    transition:color .2s ease-out, background 1s ease-in;
+}
+
+#dispatch-flight-btn:hover {
+    color: #02FAD9;
+    background-color: #1aa863;
+}
+
+#instructor-flight {
+    padding: 10px;
+}
+
+#solo-flight {
+    padding: 10px;
+}

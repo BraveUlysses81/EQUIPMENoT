@@ -1,0 +1,39 @@
+
+
+/* ADMIN DESK */
+
+#AdminDesk {
+    /*margin-left: 155px;*/
+    margin-top: 70px;
+}
+
+#admin-manage-invites-main {
+    margin-left: 130px;
+}
+
+#admin-manage-invites-head {
+    font-weight: bold;
+    color: grey;
+}
+
+#admin-manage-invites-header-row {
+    /*margin-left: 100px;*/
+    color: #72ABDD;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    border: none;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2
+}

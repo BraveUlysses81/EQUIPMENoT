@@ -1,0 +1,761 @@
+
+/* CUSTOMER DESK */
+
+#CustomerDesk {
+    margin-top: 70px;
+}
+
+/* Header Bar */
+
+#customer-desk-nav {
+    text-align: center;
+    background-color: white;
+    border-radius: 0;
+    border-right: none;
+}
+
+#customer-desk-nav-item {
+    display:inline-block;
+    float: none;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#customer-desk-nav-button {
+    color: grey;
+    background-color: transparent;
+}
+
+#customer-desk-nav-dropdown {
+    background-color: #122b40;
+    opacity: 1;
+    z-index: 999;
+    width: 200px;
+    height: 45px;
+    color: white;
+    -o-transition:color .1s ease-out, background .5s ease-in;
+    -moz-transition:color .1s ease-out, background .5s ease-in;
+    -webkit-transition:color .1s ease-out, background .5s ease-in;
+    /* ...and now override with proper CSS property */
+    transition:color .1s ease-out, background .5s ease-in;
+}
+
+#customer-desk-nav-dropdown:hover {
+    background-color: #2b63bc;
+}
+
+#quick-add-customer-button {
+    text-align: left;
+    margin-left: -10px;
+    margin-top: -2px;
+    border: none;
+    color: white;
+
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    /* ...and now override with proper CSS property */
+    transition:color .2s ease-out, background 1s ease-in;
+}
+
+#quick-add-customer-button:hover {
+    color: #02FAD9;
+    /*background-color: #72ABDD;*/
+}
+
+/* QUICK ADD CUSTOMER */
+
+#add-customer-button {
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: #2b63bc;
+    font-size: 1.4em;
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    /* ...and now override with proper CSS property */
+    transition:color .2s ease-out, background 1s ease-in;
+}
+
+#add-customer-button:hover {
+    color: #02FAD9;
+    background-color: #72ABDD;
+}
+
+#add-customer-container {
+    margin-left: 150px;
+    margin-top: 80px;
+    width: 450px;
+    background-color: #F7F7F7;
+    padding: 30px;
+}
+
+
+/* CUSTOMER LIST */
+
+/* Responsive Sizing */
+
+@media screen and (max-width: 1160px) {
+
+    #customer-list {
+        left: 10px;
+        width: 80%;
+        height: 300px !important;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        border-bottom: solid lightgrey thin;
+    }
+
+    #customer-list-button {
+    }
+}
+
+/* Constants */
+
+#customer-list {
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-left: 110px;
+    margin-top: -10px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-left: 30px;
+    height: 835px;
+    background-color: #F7F7F7;
+}
+
+#customer-list-header {
+    color: #72ABDD;
+    font-size: 0.9em;
+    font-weight: normal;
+    background: transparent;
+}
+
+#customer-list-group {
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+}
+
+.customer-edit {
+    margin-top: 110px;
+    margin-left: 110px;
+    /*background-color: #F7F7F7;*/
+}
+
+#customer-list-button {
+    position: relative;
+    border: solid lightgrey thin;
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    margin-top: -5px;
+    margin-left: -10px;
+}
+
+#customer-list-button:focus {
+    outline: none !important;
+    border: none;
+    -moz-box-shadow: 5px 10px 0px 0px #999;
+    -webkit-box-shadow: 5px 10px 40px 4px #999;
+}
+
+/* Customer List Image */
+
+#customer-list-image-wrap {
+    position: absolute;
+    width: 50px;
+    margin-right: 10px;
+    margin-top: -16px;
+}
+
+#customer-image {
+    margin-right: 20px;
+    background-color: white;
+}
+
+/* Customer List Info */
+
+#customer-list-info {
+    position: absolute;
+    margin-top: -35px;
+    height: 100%;
+    width: 250px;
+    margin-left: 90px;
+}
+
+#customer-list-name {
+    text-align: left;
+    /*float: left;*/
+    /*margin-left: 20px;*/
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #0f0f0f;
+}
+
+#customer-list-contact-mobile {
+    position: relative;
+    text-align: left;
+    /*float: left;*/
+    /*margin-left: 20px;*/
+    text-decoration: none;
+    /*width: 250px;*/
+}
+
+#customer-list-contact-mobile-number {
+    position: absolute;
+    font-size: 0.8em;
+    color: gray;
+    margin-top: 1px;
+    margin-left: 30px;
+}
+
+#customer-list-contact {
+    position: relative;
+    text-align: left;
+    /*float: left;*/
+    /*margin-left: 20px;*/
+    text-decoration: none;
+    /*width: 250px;*/
+}
+
+#customer-list-contact-phone-number {
+    position: absolute;
+    font-size: 0.8em;
+    color: gray;
+    margin-top: -2px;
+    margin-left: 30px;
+}
+
+#customer-list-group a {
+    text-decoration: none;
+}
+
+/* CUSTOMER DETAIL */
+
+/* Responsive Sizing */
+
+@media screen and (max-width: 780px) {
+    /*#customer-detail-container {*/
+        /*position: static;*/
+        /*margin-left: 120px;*/
+        /*margin-top: 0px;*/
+        /*padding-bottom: 10px;*/
+        /*padding-top: 10px;*/
+        /*border: solid lightgrey 3px;*/
+        /*background-color: #fdfdfd;*/
+        /*z-index: -1;*/
+        /*width: 550px;*/
+    /*}*/
+}
+
+@media screen and (max-width: 1160px) {
+
+    #customer-detail-container {
+        left: 110px;
+        width: 80%;
+    }
+
+}
+
+#customer-detail-container {
+    position: relative;
+    margin-left: 10px;
+    margin-top: -10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: solid lightgrey 3px;
+    background-color: #fdfdfd;
+}
+
+
+/* Customer Detail Header Component */
+
+#customer-detail-header {
+    height: 260px;
+    margin-top: -10px;
+    margin-left: 0px;
+    padding-bottom: 10px;
+}
+
+#customer-header-left {
+    width: 230px;
+    height: 220px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+#customer-header-detail-photo {
+    /*border-radius: 50%;*/
+    /*border: 20px;*/
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    margin-top: -20px;
+    background-color: white;
+    overflow: hidden;
+}
+
+#customer-detail-header-right {
+    /*margin-top: 50px;*/
+}
+
+#customer-detail-header-name {
+    align-content: left;
+    margin-top: 40px;
+    font-weight: bold;
+    color: grey;
+    margin-left: 250px;
+    width: 400px;
+}
+
+#customer-detail-header-date {
+    width: 400px;
+    margin-top: 0px;
+    margin-left: 250px;
+}
+
+#customer-detail-header-dispatch-group {
+    /*float: right;*/
+    margin-top: 70px;
+    /*margin-right: 20px;*/
+    margin-left: 250px;
+    /*width: 200px;*/
+}
+
+#edit-customer-detail {
+    margin-left: 15px;
+}
+
+#customer-detail-header-hr {
+    /*margin-top: -20px;*/
+    width: 100%;
+    background-color: #72ABDD;
+    height: 3px;
+}
+
+/* Customer Edit Menu */
+
+#drop-customer-edit-menu {
+    left: -27px;
+    z-index: 9999;
+    background-color: #122b40;
+    text-decoration: none;
+}
+
+#drop-customer-edit-menu > li a {
+    -o-transition:color .1s ease-out, background .5s ease-in;
+    -moz-transition:color .1s ease-out, background .5s ease-in;
+    -webkit-transition:color .1s ease-out, background .5s ease-in;
+    /* ...and now override with proper CSS property */
+    transition:color .1s ease-out, background .5s ease-in;
+
+    color: white;
+}
+
+#drop-customer-edit-menu > li a:hover {
+    background-color: #2b63bc;
+    color: #02FAD9;
+    cursor: pointer;
+}
+
+/* CUSTOMER DETAIL INFO COMPONENT */
+
+#customer-detail-contact {
+    margin-top: 0px;
+}
+
+#customer-detail label {
+    padding-right: 10px;
+}
+
+figcaption {
+    background-color: #F7F7F7;
+    margin-bottom: 10px;
+    padding: 5px 20px;
+    font-size: 1em;
+    color: #72ABDD;
+    border-bottom: solid lightgrey thin;
+}
+
+/* Checkout Container */
+
+#checkout-container {
+    margin-left: 30px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 80px;
+    margin-bottom: 10px;
+    font-size: .9em;
+}
+
+#edit-checkout-currency-btn {
+    margin-top: 5px;
+}
+
+/* CURRENCY CHECKOUT */
+
+#customer-currency-item {
+    margin-bottom: 5px;
+    border-bottom: solid lightgrey thin;
+    margin-right: 20px;
+    padding-bottom: 6px;
+}
+
+#currencyDaysLeft {
+    font-size: .8em;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 3px;
+}
+
+#currencyRegNbr {
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: -50px;
+    margin-right: 20px;
+}
+
+#currencyGlassCockpit {
+    width: 120px;
+    margin-left: -70px;
+    color: grey;
+}
+
+#currencyIfrCheckout {
+    width: 120px;
+    margin-left: -20px;
+    color: grey;
+}
+
+#currency-option-text {
+    font-size: .7em;
+    margin-top: -3px;
+}
+
+/* Contact Container */
+
+#phone-container {
+    font-size: .8em;
+    padding-left: 10px;
+    margin-left: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+#checkout-contact-mobile {
+    /*margin-top: 5px;*/
+}
+
+#mobilePhone {
+    color: gray;
+    margin-right: 20px;
+}
+
+#mobileInput {
+    position: relative;
+    display: block;
+    top: -20px;
+    margin-left: 30px;
+}
+
+#checkout-contact-phone {
+    float: right;
+    margin-top: -41px;
+    margin-right: 10px;
+}
+
+#homePhone {
+    position: relative;
+    display: block;
+    color: gray;
+    margin-right: 10px;
+    font-size: 1.6em;
+    float: left;
+    margin-top: 4px;
+}
+
+#homeInput {
+    position: relative;
+    display: block;
+    margin-left: 30px;
+    /*margin-top: -3px;*/
+}
+
+#checkout-contact-email {
+    /*margin-top: 10px;*/
+}
+
+#contactEmail {
+    margin-left: -3px;
+    color: gray;
+    margin-right: 20px;
+    font-size: 1.3em;
+}
+
+#emailInput {
+    width: 200px;
+}
+
+input[readonly] {
+    border: 0;
+}
+
+/* Pilot Documents */
+
+#pilot-document-container {
+    padding-top: 0px;
+    padding-left: 10px;
+    margin-left: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 80px;
+    margin-bottom: 10px;
+    font-size: .8em;
+}
+
+#pilot-documents {
+    padding-bottom: 5px;
+    border-bottom: solid lightgrey thin;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+#pilot-certificate-number {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-right: 5px;
+}
+
+#plane-tiny {
+    float: left;
+    color: gray;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#pilot-certificate-text {
+    color: #72ABDD;
+    font-size: .9em;
+    width: 200px;
+}
+
+#pilot-documents-btn {
+    float: right;
+    margin-top: -5px;
+    border: none;
+    color: white;
+    /*padding: -3px;*/
+    background-color: #2b63bc;
+    font-size: 0.8em;
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    /* ...and now override with proper CSS property */
+    transition:color .2s ease-out, background 1s ease-in;
+    z-index: 99999;
+}
+
+#pilot-documents-btn:hover {
+    color: #02FAD9;
+    background-color: #72ABDD;
+}
+
+#flightReview {
+    margin-left: 20px;
+}
+
+#medical-class {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+#medicalReview {
+    /*margin-left: 10px;*/
+}
+
+#medical-tiny {
+    /*margin-left: -20px;*/
+    margin-right: 15px;
+}
+
+#medicalRequired {
+    margin-left: -25px;
+    margin-top: 5px;
+}
+
+/* Address Container */
+
+#address-container {
+    /*padding-top: 10px;*/
+    padding-left: 10px;
+    margin-left: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 80px;
+    margin-bottom: 10px;
+    font-size: .8em;
+}
+
+#address-container-list {
+    margin-left: -40px;
+}
+
+#address-marker-icon {
+    color: grey;
+}
+
+#addressInput {
+    margin-left: 20px;
+    position: relative;
+    width: 300px;
+}
+
+#cityInput, #emergencyFirstNameInput, #emergencyLastNameInput {
+    margin-left: 33px;
+    width: 90px;
+}
+
+#stateInput, #zipInput {
+    width: 50px;
+}
+
+/* Emergency Contact Container */
+
+#emergency-contact-info {
+}
+
+#emergency-contact-container {
+    /*padding-top: 10px;*/
+    padding-left: 10px;
+    margin-left: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 80px;
+    margin-bottom: 10px;
+    font-size: .8em;
+}
+
+#emergency-contact-left {
+    margin-left: -20px;
+    width: 100%;
+}
+
+#emergencyContactIcon {
+    color: grey;
+    font-size: 1.4em;
+    margin-right: -15px;
+}
+
+#emergencyFirstNameInput {
+    /*position: relative;*/
+    /*display: block;*/
+    /*margin-top: -20px;*/
+    width: auto;
+}
+
+#emergencyLastNameInput {
+    /*float: right;*/
+    /*position: relative;*/
+    /*display: block;*/
+    width: auto;
+    margin-left: 10px;
+    /*margin-top: -20px;*/
+}
+
+#emergency-contact-phone {
+    margin-top: 20px;
+    margin-left: -6px;
+    width: 100%;
+    /*float: right;*/
+    /*margin-top: -35px;*/
+    /*margin-right: 20px;*/
+    /*margin-left: -30px;*/
+}
+
+#emergencyPhoneIcon {
+    position: relative;
+    display: block;
+    color: gray;
+    /*margin-right: 10px;*/
+    font-size: 1.6em;
+    /*float: right;*/
+    margin-top: 3px;
+    /*margin-left: 5px;*/
+}
+
+#emergencyPhoneInput {
+    /*float: right;*/
+    position: relative;
+    display: block;
+    /*float: right;*/
+    /*margin-top: -18px;*/
+    margin-left: 30px;
+
+}
+
+/* Dates Container */
+
+#dates-container {
+    /*padding-top: 10px;*/
+    padding-left: 10px;
+    margin-left: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 80px;
+    margin-bottom: 10px;
+    font-size: .8em;
+}
+
+#dobIcon {
+    color: gray;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+#dobInput {
+
+}
+
+/* Edit Customer Dropdown Menu */
+
+#drop-customer-edit-menu {
+    margin-left: -86px;
+    margin-top: 10px;
+}
+
+.drop-customer-edit:before {
+    position: absolute;
+    /*top: -6px;*/
+    left: 10px;
+    display: inline-block;
+    border-color: #122b40;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #ccc;
+    border-left: 7px solid transparent;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    content: '';
+}
+
+.drop-customer-edit:after {
+    position: absolute;
+    /*top: -6px;*/
+    left: 10px;
+    display: inline-block;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #122b40;
+    border-left: 6px solid transparent;
+    content: '';
+}

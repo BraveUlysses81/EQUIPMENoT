@@ -1,0 +1,151 @@
+/* SIGN UP DESK */
+
+
+#SignupDesk {
+    background: url(../../../public/img/dash.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1000px;
+}
+
+@media all and (max-width: 499px) {
+
+    #signup-register-container {
+        background-color: #122b40;
+        margin-left: 10%;
+        opacity: .9;
+        padding: 20px;
+        margin-top: 60px;
+        width: 400px;
+    }
+
+    #signup-student-button {
+        width: 200px;
+        margin: 5px;
+        height: 80px;
+        border: none;
+        color: white;
+        background-color: #2b63bc;
+        font-size: 1em;
+        -o-transition:color .2s ease-out, background 1s ease-in;
+        -moz-transition:color .2s ease-out, background 1s ease-in;
+        -webkit-transition:color .2s ease-out, background 1s ease-in;
+        /* ...and now override with proper CSS property */
+        transition:color .2s ease-out, background 1s ease-in;
+    }
+
+    #signup-student-button-text {
+        margin-top: -20px;
+        font-weight: bold;
+    }
+
+}
+
+@media all and (min-width: 500px) {
+
+    /* Sign Up */
+
+    #signup-register-container {
+        background-color: #122b40;
+        margin-left: 10%;
+        opacity: .9;
+        padding: 20px;
+        margin-top: 60px;
+        width: 700px;
+    }
+
+    #signup-student-button {
+        width: 400px;
+        margin: 25px;
+        height: 120px;
+        border: none;
+        color: white;
+        background-color: #2b63bc;
+        font-size: 2em;
+        -o-transition:color .2s ease-out, background 1s ease-in;
+        -moz-transition:color .2s ease-out, background 1s ease-in;
+        -webkit-transition:color .2s ease-out, background 1s ease-in;
+        /* ...and now override with proper CSS property */
+        transition:color .2s ease-out, background 1s ease-in;
+    }
+
+    #signup-student-button-text {
+        margin-top: -40px;
+        font-weight: bold;
+    }
+
+}
+
+/* Sign Up Register */
+
+
+#signup-register-school-select {
+    margin-left: 20px;
+    width: 420px;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+}
+
+#signup-student-button:hover {
+    color: #02FAD9;
+    background-color: #72ABDD ;
+}
+
+#signup-register-text {
+    color: white;
+}
+
+#signup-register-school {
+    margin-left: 20px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: normal!important;
+}
+
+#home-signup-btn-container {
+    margin-left: -30px;
+}
+
+.signup-list-info {
+    position: absolute;
+    margin-top: -35px;
+    height: 100%;
+    margin-left: 75px;
+}
+
+/* Sign Up Success */
+
+#WelcomeDesk {
+    background: url(../../../public/img/biplane.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1000px;
+}
+
+#welcome-equipmenot {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 5%;
+    /*width: 800px;*/
+}
+
+#welcome-equipmenot-head {
+    font-size: 4em;
+    color: white;
+    font-weight: bold;
+    /*margin-left: 50%;*/
+}
+
+#welcome-equipmenot-blurb {
+    /*margin-left: 50%;*/
+    margin-top: 20px;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+}

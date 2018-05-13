@@ -1,0 +1,688 @@
+
+/* CLOSE FLIGHT MODAL */
+
+#close-flight-modal {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-left: -650px;
+    margin-top: -300px;
+    /*transform: translate(50%, 100%);*/
+    z-index: 99999;
+    background: #fff;
+    width: 1300px;
+    height: 800px;
+    border: 5px solid black;
+}
+
+#closemodal {
+    margin-top: 5px;
+    margin-right: 5px;
+    z-index: 999999;
+}
+
+/* CLOSE FLIGHT AIRCRAFT */
+
+#close-flight-aircraft {
+    border-right: solid lightgrey;
+    width: 404px;
+    height: 790px;
+    margin-left: -5px;
+    margin-right: 5px;
+}
+
+#close-modal-flight-image {
+    border: none;
+    position: absolute;
+    max-width: 400px;
+    /*background: transparent;*/
+    /*margin-left: 116px;*/
+    overflow: hidden;
+}
+
+#close-modal-aircraft-image {
+    max-width: 400px;
+    height: auto;
+    border: none;
+    margin-left: -14px;
+    margin-top: -7px;
+    background: transparent;
+    display: block;
+}
+
+#close-flight-aircraft-image-thumbnail {
+    margin-right: 110px;
+    margin-top: 100px;
+    color: lightgrey;
+}
+
+/*#close-flight-aircraft-default-image {*/
+    /*margin-left: -100px;*/
+/*}*/
+
+#close-modal-aircraft-text {
+    position: relative;
+    margin-top: 265px;
+    margin-left: 20px;
+    /*height: 700px;*/
+
+}
+
+#close-modal-registration-text {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: grey;
+}
+
+
+/* Squawk List */
+
+#postflight-squawks-text {
+    font-size: 1em;
+    color: #72ABDD;
+    margin-left: -20px;
+    font-weight: normal;
+    width: 100%;
+    /*background-color: #F7F7F7;*/
+    /*border-bottom: solid lightgrey thin;*/
+    /*padding: 5px;*/
+}
+
+#postflight-squawks-list {
+    text-decoration: none;
+    border: none;
+    margin-left: -28px;
+    height: 280px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#postflight-squawk-list-item {
+    border: none;
+    background-color: lightgrey;
+    margin-left: -5px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    border-radius: 0;
+}
+
+#postflight-squawk-button {
+    border: none;
+    background-color: transparent;
+    color: black;
+}
+
+#postflight-squawk-object {
+    width: 390px;
+    margin-left: -10px;
+    border: none;
+}
+
+#postflight-squawk-reported {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: black;
+}
+
+#postflight-squawk-reported-name {
+    float: left;
+    margin-left: 4px;
+    color: black;
+}
+
+#postflight-squawk-reported-date {
+    float: right;
+    margin-right: 4px;
+}
+
+#postflight-squawk-report {
+    font-size: 1em;
+    border: none;
+    color: black;
+}
+
+#postflight-squawk-report-text {
+    float: left;
+    text-align: left !important;
+    margin-left: 5px;
+}
+
+
+/* Add Squawk */
+
+#postflight-squawk-add {
+    position: relative;
+    margin-top: -20px;
+    margin-left: 10px;
+    color: black;
+}
+
+#postflight-squawk-add-input {
+    /*background-color: lightgrey;*/
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: solid lightgrey;
+    color: black;
+    width: 330px;
+    height: 30px;
+}
+
+#postflight-ground-aircraft {
+    vertical-align: middle;
+}
+
+#postflight-squawk-ground-flight-input {
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 0;
+    border: solid black;
+    border-width: 2px;
+    box-sizing: border-box;
+    background: white;
+}
+
+#postflight-squawk-ground-flight-label {
+    font-size: .9em;
+    height: 20px;
+}
+
+#postflight-squawk-ground-flight-text {
+    margin-top: -20px;
+    margin-left: 50px;
+}
+
+/* CLOSE FLIGHT CUSTOMER */
+
+#close-flight-customer {
+    width: 880px;
+    height: 800px;
+    float: right;
+    margin-top: -800px;
+}
+
+#close-flight-customer-header-left {
+    width: 230px;
+    height: 250px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+#close-modal-customer-header-image {
+    border: none;
+    position: absolute;
+    /*max-width: 260px;*/
+    width: 250px;
+    height: 250px;
+    /*margin: 0 auto;*/
+    /*background: transparent;*/
+    overflow: hidden;
+}
+
+#close-flight-user-image-thumbnail {
+    margin-left: 50px;
+    margin-top: 30px;
+    color: lightgrey;
+}
+
+#close-modal-customer-image {
+    /*display: table;*/
+    margin: -35px -35px -35px -35px;
+    width: 250px;
+    height: 250px;
+    border: none;
+    background: transparent;
+    overflow: hidden;
+}
+
+#close-flight-customer-header-right {
+    float: left;
+    margin-top: 30px;
+    max-width: 500px;
+}
+
+#close-flight-customer-name {
+    font-size: 2.3em;
+    font-weight: bold;
+    color: grey;
+}
+
+#close-flight-checkout-options {
+    margin-top: -10px;
+}
+
+#close-flight-checkout-input {
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 0;
+    border: solid black;
+    border-width: 2px;
+    box-sizing: border-box;
+    background: white;
+}
+
+#close-flight-checkout-label {
+    font-size: .9em;
+    height: 20px;
+}
+
+#close-flight-checkout-text {
+    margin-top: -20px;
+    margin-left: 50px;
+}
+
+#close-flight-ifrcheckout-input {
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 0;
+    border: solid black;
+    border-width: 2px;
+    box-sizing: border-box;
+    background: white;
+}
+
+#close-flight-ifrcheckout-label {
+    font-size: .9em;
+    height: 20px;
+}
+
+#close-flight-ifrcheckout-text {
+    margin-top: -20px;
+    margin-left: 50px;
+}
+
+#close-flight-flightreview-input {
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 0;
+    border: solid black;
+    border-width: 2px;
+    box-sizing: border-box;
+    background: white;
+}
+
+#close-flight-flightreview-label {
+    font-size: .9em;
+    height: 20px;
+}
+
+#close-flight-flightreview-text {
+    margin-top: -20px;
+    margin-left: 50px;
+}
+
+#close-flight-hr {
+    float: left;
+    margin-left: 20px;
+    margin-top: -20px;
+    width: 830px;
+}
+
+/* CLOSE FLIGHT INSTRUCTOR */
+
+#close-flight-instructor {
+    float: left;
+    /*margin-top: 50px;*/
+    width: 830px;
+    height: 180px;
+    background-color: #F7F7F7;
+    margin-left: 40px;
+}
+
+#close-flight-instructor-text {
+    margin-top: 10px;
+    color: #72ABDD;
+    float: left;
+    margin-left: 20px;
+    font-size: 1em;
+    /*color: #72ABDD;*/
+    /*margin-left: -20px;*/
+    font-weight: normal;
+    width: 780px;
+    /*background-color: #F7F7F7;*/
+    /*border-bottom: solid lightgrey thin;*/
+    /*padding: 5px;*/
+}
+
+#close-flight-instructor-container {
+    margin-top: -20px;
+    position: absolute;
+    margin-left: 150px;
+}
+
+/* Close Flight Instructor Image */
+
+#close-flight-instuctor-header-image {
+    float: left;
+    margin-left: -100px;
+    margin-top: 40px;
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+    border: none;
+}
+
+#close-flight-instructor-image {
+    border-radius: 50%;
+    display: table;
+    margin: -5px -5px -5px -5px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    background: transparent;
+    overflow: hidden;
+}
+
+#close-flight-instructor-details {
+    float: left;
+    margin-top: 45px;
+    width: 400px;
+}
+
+#close-flight-instructor-certs {
+    position: absolute;
+    width: 100%;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+
+#close-flight-instructor-name {
+    margin-top: -12px;
+    font-size: 1.2em;
+}
+
+/*#flight-modal-instructor-certs-top {*/
+    /*margin-left: 60px;*/
+    /*margin-top: -5px;*/
+    /*color: gray;*/
+    /*font-size: .7em;*/
+/*}*/
+
+#close-flight-instructor-certs-bottom {
+    position: relative;
+    margin-top: -20px;
+    margin-left: 60px;
+    color: gray;
+    font-size: .7em;
+}
+
+/* Close Flight Ground Hours */
+
+#close-flight-instructor-billing {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+#close-flight-billing-ground-details {
+    /*position: absolute;*/
+    float: left;
+    margin-left: 150px;
+    margin-top: 45px;
+}
+
+#close-flight-ground-hours {
+    margin-top: 10px;
+    color: grey;
+    font-size: 0.8em;
+}
+
+#close-flight-edit-ground {
+    align-content: center;
+    margin-top: 5px;
+    font-size: 1.2em!important;
+    /*background-color: lightgrey;*/
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: solid lightgrey;
+    color: black;
+    width: 100px;
+    /*height: 30px;*/
+}
+
+/* Close Flight Edit Flight Time */
+#close-flight-billing-flight-details {
+    float: left;
+    margin-left: 20px;
+    margin-top: 45px;
+}
+
+#close-flight-flight-time {
+    margin-top: 10px;
+    color: grey;
+    font-size: 0.8em;
+}
+
+#close-flight-edit-flight-time {
+    align-content: center;
+    margin-top: 5px;
+    font-size: 1.2em!important;
+    /*background-color: lightgrey;*/
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: solid lightgrey;
+    color: black;
+    width: 100px;
+    /*height: 30px;*/
+}
+
+/* Close Flight Instruction Rate */
+#close-flight-billing-rate-details {
+    float: left;
+    margin-left: 20px;
+    margin-top: 45px;
+}
+
+#close-flight-billing-rate {
+    margin-top: 10px;
+    color: grey;
+    font-size: 0.8em;
+}
+
+#close-flight-edit-rate {
+    align-content: center;
+    margin-top: 5px;
+    font-size: 1.2em!important;
+    /*background-color: lightgrey;*/
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: solid lightgrey;
+    color: black;
+    width: 100px;
+    /*height: 30px;*/
+}
+
+/* CLOSE FLIGHT AIRCRAFT */
+
+#close-flight-aircraft-details {
+    float: left;
+    margin-top: 20px;
+    width: 830px;
+    height: 200px;
+    background-color: #F7F7F7;
+    margin-left: 40px;
+}
+
+#close-flight-aircraft-text {
+    margin-top: 10px;
+    color: #72ABDD;
+    float: left;
+    margin-left: 20px;
+    font-size: 1em;
+    /*color: #72ABDD;*/
+    /*margin-left: -20px;*/
+    font-weight: normal;
+    width: 780px;
+    /*background-color: #F7F7F7;*/
+    /*border-bottom: solid lightgrey thin;*/
+    /*padding: 5px;*/
+}
+
+/* Close Flight Aircraft Hobbs */
+
+#close-flight-hobbs-container {
+    margin-top: -10px;
+    position: absolute;
+}
+
+#close-flight-tach-container {
+    position: absolute;
+    margin-top: 50px;
+}
+
+#close-flight-hobbs-text {
+    font-size: 1.4em;
+    float: left;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+/* Close Flight Start Hobbs */
+#close-flight-start-hobbs-details {
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+#close-flight-start-hobbs {
+    margin-top: 10px;
+}
+
+#close-flight-start-hobbs-text {
+    color: grey;
+    font-size: 0.8em;
+}
+
+#close-flight-edit-start-hobbs {
+    align-content: center;
+    margin-top: -10px;
+    font-size: 1.2em!important;
+    /*background-color: lightgrey;*/
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: solid lightgrey;
+    color: black;
+    width: 100px;
+    /*height: 30px;*/
+}
+
+/* Close Flight End Hobbs */
+#close-flight-end-hobbs-details {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#close-flight-end-hobbs {
+    margin-top: 10px;
+}
+
+#close-flight-end-hobbs-text {
+    color: grey;
+    font-size: 0.8em;
+}
+
+#close-flight-edit-end-hobbs {
+    align-content: center;
+    margin-top: -10px;
+    font-size: 1.2em!important;
+    /*background-color: lightgrey;*/
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: solid lightgrey;
+    color: black;
+    width: 100px;
+    /*height: 30px;*/
+}
+
+/* Close Flight Hold Flight Time */
+
+#close-flight-hold-flight-details {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#close-flight-hold-flight {
+    margin-top: 10px;
+}
+
+#close-flight-hold-flight-time-text {
+    color: grey;
+    font-size: 0.8em;
+}
+
+#close-flight-hold-flight-time {
+    align-content: center;
+    font-size: 1.2em!important;
+    margin-top: -3px;
+    color: black;
+    /*height: 30px;*/
+}
+
+/* Close Flight Tach Text */
+
+#close-flight-tach-text {
+    font-size: 1.4em;
+    float: left;
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-right: 19px;
+}
+
+/* CANCEL / CLOSE FLIGHT BUTTONS */
+
+#close-flight-button-group {
+    margin-top: 60px;
+    margin-right: 50px;
+    float: right;
+}
+
+#cancel-close-flight-btn {
+    margin: 5px;
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: #2b63bc;
+    font-size: 0.8em;
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    /* ...and now override with proper CSS property */
+    transition:color .2s ease-out, background 1s ease-in;
+}
+
+#cancel-close-flight-btn:hover {
+    color: #02FAD9;
+    background-color: #72ABDD;
+}
+
+#close-flight-btn {
+    margin: 5px;
+    width: 150px;
+    border: none;
+    color: white;
+    background-color: #1b887a;
+    font-size: 0.8em;
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    /* ...and now override with proper CSS property */
+    transition:color .2s ease-out, background 1s ease-in;
+}
+
+#close-flight-btn:hover {
+    color: #02FAD9;
+    background-color: #1aa863;
+}
